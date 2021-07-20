@@ -1,0 +1,266 @@
+.pricing-wrapper {
+  background-image: url(../img/prostok_t_4_1101.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+}
+
+.pricing-container {
+  width: 100%;
+  height: 640px;
+  min-width: 0;
+  z-index: 1;
+}
+.pricing-container .container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.pricing-container .container .col-4 {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 37px;
+}
+.pricing-container .container .col-4 .text-title {
+  font-family: "Source Sans", sans-serif;
+  font-size: 14px;
+  line-height: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  color: #008ed6;
+  margin-left: 64px;
+  margin-top: -8px;
+}
+.pricing-container .container .col-4 span {
+  font-family: "Source Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-top: -16px;
+  margin-left: 27px;
+}
+.pricing-container .container .col-4 .line-wrapper {
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 40px;
+}
+.pricing-container .container .col-4 .line-wrapper .lines {
+  width: 19px;
+  display: flex;
+  border-top: 2px solid #008ed6;
+}
+.pricing-container .container .col-4 .line-wrapper {
+  margin-top: 36px;
+  margin-left: 130px;
+}
+.pricing-container .container .col-4 .line-wrapper span:nth-child(1) {
+  margin-left: 0;
+}
+.pricing-container .container .col-4 .line-wrapper span:nth-child(2) {
+  margin-left: 0;
+}
+.pricing-container .feedback-container {
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+  margin-left: 117px;
+  margin-top: 3px;
+}
+.pricing-container .feedback-container .feed1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 58px;
+}
+.pricing-container .feedback-container .feed1 span {
+  font-family: "Source Sans", sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-style: italic;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: -25px;
+  letter-spacing: 0.5px;
+  margin-left: 17px;
+}
+.pricing-container .feedback-container .feed1 .author {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+.pricing-container .feedback-container .feed1 .author img {
+  width: 59px;
+  height: 59px;
+  margin-left: 3px;
+  margin-top: 21px;
+}
+.pricing-container .feedback-container .feed1 .author .author-span {
+  display: flex;
+  flex-direction: column;
+  margin-top: 37px;
+}
+.pricing-container .feedback-container .feed1 .author .author-span span {
+  font-family: "Source Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+  line-height: 60px;
+  color: #ffffff;
+  margin-left: 24px;
+}
+.pricing-container .feedback-container .feed1 .author .author-span span:last-child {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-left: 25px;
+  font-style: normal;
+  line-height: 23px;
+  margin-top: -17px;
+}
+.pricing-container .feedback-container .feed2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 29px;
+}
+.pricing-container .feedback-container .feed2 span {
+  font-family: "Source Sans", sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-style: italic;
+  font-weight: 400;
+  color: #ffffff;
+  margin-left: 17px;
+  margin-top: 36px;
+  letter-spacing: 0.5px;
+}
+.pricing-container .feedback-container .feed2 .author2 {
+  display: flex;
+  flex-direction: row;
+}
+.pricing-container .feedback-container .feed2 .author2 img {
+  width: 59px;
+  height: 59px;
+  margin-left: 17px;
+  margin-top: 21px;
+}
+.pricing-container .feedback-container .feed2 .author2 .author-span2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -27px;
+}
+.pricing-container .feedback-container .feed2 .author2 .author-span2 span {
+  font-family: "Source Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  color: #ffffff;
+  margin-left: 24px;
+  letter-spacing: 0.2px;
+}
+.pricing-container .feedback-container .feed2 .author2 .author-span2 span:last-child {
+  font-family: "Source Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin-left: 25px;
+  font-style: normal;
+  line-height: 23px;
+  margin-top: -16px;
+}
+.pricing-container .feedback-container .slick-track {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.pricing-container .feedback-container .slick-list {
+  overflow: hidden;
+  width: 100%;
+}
+.pricing-container .feedback-container .slick-dots {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 3px;
+  margin-top: 132px;
+  width: 137px;
+}
+.pricing-container .feedback-container .slick-dots button {
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0;
+}
+.pricing-container .feedback-container .slick-dots .slick-active button {
+  background-color: #ffffff;
+  width: 13px;
+  height: 13px;
+  border: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .pricing-wrapper .pricing-container .title {
+    margin-top: 35px;
+    margin-left: 0;
+  }
+  .pricing-wrapper .pricing-container .title span:nth-child(1) {
+    margin: 0 auto;
+  }
+  .pricing-wrapper .pricing-container .title span:nth-child(2) {
+    margin: 0 auto;
+  }
+  .pricing-wrapper .feedback-container {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  .pricing-wrapper .feedback-container .slick-dots {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .pricing-wrapper .pricing-container .title span:nth-child(1) {
+    width: 200px;
+    margin-left: -40px;
+  }
+  .pricing-wrapper .pricing-container .title span:nth-child(2) {
+    width: 260px;
+    margin-left: -92px;
+  }
+  .pricing-wrapper .pricing-container .title .line-wrapper {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+  }
+  .pricing-wrapper .pricing-container .title .line-wrapper .lines {
+    width: 19px;
+    display: flex;
+    border-top: 2px solid #008ed6;
+  }
+  .pricing-wrapper .pricing-container .title .line-wrapper {
+    display: none;
+  }
+  .pricing-wrapper .pricing-container .feedback-container {
+    margin-top: -18px;
+    margin-left: -15px;
+  }
+}
+/*# sourceMappingURL=slider.css.map */
