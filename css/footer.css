@@ -111,9 +111,24 @@
   margin-right: 5px;
 }
 
+@media screen and (max-width: 1200px) {
+  .footer-wrapper {
+    align-items: center;
+  }
+  .footer-wrapper .form {
+    bottom: -4500px;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer-wrapper .form {
+    bottom: -4900px;
+    margin-left: 0;
+  }
+}
 @media screen and (max-width: 768px) {
   .footer-wrapper .form {
-    bottom: -5400px;
+    bottom: -5260px;
     margin-left: 0;
   }
 }

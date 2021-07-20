@@ -62,7 +62,6 @@
       @include center;
       flex-direction: column;
       margin-top: 58px;
-
       span {
         font-family: "Source Sans", sans-serif;
         font-size: 22px;
@@ -204,6 +203,30 @@
         width: 13px;
         height: 13px;
         border: 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .pricing-wrapper{
+    .pricing-container{
+      .title{
+        margin-top: 35px;
+        margin-left: 0;
+        span:nth-child(1){
+          margin: 0 auto;
+        }
+        span:nth-child(2){
+          margin: 0 auto;
+        }
+      }
+    }
+    .feedback-container{
+      margin-top: 0;
+      margin-left: 0;
+      width: 100%;
+      .slick-dots{
+        margin-top: 70px;
       }
     }
   }

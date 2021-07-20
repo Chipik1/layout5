@@ -27,12 +27,12 @@
       text-transform: none;
       letter-spacing: 1.2px;
       color: black;
-      margin-top: -16px;
+      margin-top: -14px;
       margin-left: 107px;
     }
     @include line;
     .line-wrapper {
-      margin-top: 38px;
+      margin-top: 36px;
       margin-left: 210px;
       span:nth-child(1){
         margin-left: 0;
@@ -44,7 +44,7 @@
   }
   .row-columns {
     @include center;
-    margin-top: 0;
+    margin-top: -3px;
     .price-list:hover {
       .row:first-child {
         color: #008ed6;
@@ -195,6 +195,61 @@
         }
         button {
           margin-left: 8px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .plans-wrapper{
+    .plans-container{
+      .row{
+        .title{
+          margin-left: 22px;
+          span{
+            margin: auto;
+          }
+          span:nth-child(2){
+            margin-left: -10px;
+          }
+          @include line;
+          .line-wrapper{
+            margin-left: 90px;
+          }
+        }
+      }
+      .row-columns{
+        flex-wrap: wrap;
+        .price-list:nth-child(1){
+          max-width: 50%;
+          padding-right: 34px;
+          .row:nth-child(2){
+            padding-left: 158px;
+          }
+        }
+        .price-list:nth-child(2){
+          max-width: 50%;
+          margin-left: 0;
+          padding-right: 32px;
+          .row:nth-child(2){
+            padding-left: 160px;
+          }
+        }
+        .price-list:nth-child(3){
+          max-width: 50%;
+          margin-left: 1px;
+          padding-right: 34px;
+          .row:nth-child(2){
+            padding-left: 160px;
+          }
+        }
+        .price-list:nth-child(4){
+          max-width: 50%;
+          margin-left: 0;
+          padding-right: 32px;
+          .row:nth-child(2){
+            padding-left: 155px;
+          }
         }
       }
     }

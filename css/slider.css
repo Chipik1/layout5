@@ -214,6 +214,26 @@
   border: 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .pricing-wrapper .pricing-container .title {
+    margin-top: 35px;
+    margin-left: 0;
+  }
+  .pricing-wrapper .pricing-container .title span:nth-child(1) {
+    margin: 0 auto;
+  }
+  .pricing-wrapper .pricing-container .title span:nth-child(2) {
+    margin: 0 auto;
+  }
+  .pricing-wrapper .feedback-container {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  .pricing-wrapper .feedback-container .slick-dots {
+    margin-top: 70px;
+  }
+}
 @media screen and (max-width: 768px) {
   .pricing-wrapper .pricing-container .title {
     margin-top: 35px;
