@@ -30,10 +30,10 @@
   font-size: 34px;
   font-weight: 600;
   text-transform: none;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.4px;
   color: black;
-  margin-top: -14px;
-  margin-left: 107px;
+  margin-top: -15px;
+  margin-left: 105px;
 }
 .plans-container .col-4 .line-wrapper {
   position: relative;
@@ -77,9 +77,9 @@
 }
 .plans-container .row-columns .col-3 {
   max-width: 23.9%;
-  margin-right: -8px;
+  margin-right: -7px;
   padding-right: 22px;
-  margin-top: 27px;
+  margin-top: 28px;
 }
 .plans-container .row-columns .col-3 .row {
   border: 1px solid;
@@ -98,7 +98,7 @@
   flex-direction: column;
   padding-top: 37px;
   padding-bottom: 14px;
-  padding-left: 112px;
+  padding-left: 114px;
 }
 .plans-container .row-columns .col-3 .row:nth-child(2) span {
   font-size: 18px;
@@ -142,8 +142,8 @@
 .plans-container .row-columns .col-3 .row:nth-child(3) span {
   text-align: center;
   width: 201px;
-  margin-left: -4px;
-  letter-spacing: -0.1px;
+  margin-left: 1px;
+  letter-spacing: 0.1px;
   padding-top: 2px;
   padding-bottom: 21px;
 }
@@ -161,7 +161,7 @@
   color: #008ed6;
   margin-top: 18px;
   margin-bottom: 17px;
-  margin-right: 5px;
+  margin-right: 2px;
 }
 .plans-container .row-columns .col-3:nth-child(2) {
   margin-left: 27px;
@@ -201,13 +201,13 @@
   letter-spacing: 1px;
 }
 .plans-container .row-columns .col-3:nth-child(4) .row:nth-child(2) .columns {
-  margin-left: 6px;
+  margin-left: 3px;
 }
 .plans-container .row-columns .col-3:nth-child(4) .row:nth-child(3) span {
   margin-left: 5px;
 }
 .plans-container .row-columns .col-3:nth-child(4) .row:nth-child(3) button {
-  margin-left: 8px;
+  margin-left: 2px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -218,7 +218,7 @@
     margin: auto;
   }
   .plans-wrapper .plans-container .row .title span:nth-child(2) {
-    margin-left: -10px;
+    margin-left: 0;
   }
   .plans-wrapper .plans-container .row .title .line-wrapper {
     position: relative;

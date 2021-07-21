@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   margin-left: 70px;
-  margin-right: 42px;
+  margin-right: 40px;
 }
 .footer-wrapper .footer-container .row .col-4 div i {
   font-size: 18px;
@@ -40,7 +40,6 @@
   text-transform: uppercase;
   color: #444348;
   margin-top: 12px;
-  margin-left: -2px;
 }
 .footer-wrapper .form {
   background-color: #15141a;

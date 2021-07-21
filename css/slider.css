@@ -6,6 +6,8 @@
   justify-content: center;
   width: 100%;
   min-width: 0;
+  margin-top: 20px;
+  margin-left: -3px;
 }
 
 .pricing-container {
@@ -13,6 +15,7 @@
   height: 640px;
   min-width: 0;
   z-index: 1;
+  margin-top: -20px;
 }
 .pricing-container .container {
   display: flex;
@@ -24,7 +27,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-left: 37px;
+  margin-left: 44px;
 }
 .pricing-container .container .col-4 .text-title {
   font-family: "Source Sans", sans-serif;
@@ -73,7 +76,7 @@
   width: 1170px;
   display: flex;
   justify-content: center;
-  margin-left: 117px;
+  margin-left: 120px;
   margin-top: 3px;
 }
 .pricing-container .feedback-container .feed1 {
@@ -81,6 +84,7 @@
   justify-content: center;
   flex-direction: column;
   margin-top: 58px;
+  padding-right: 11px;
 }
 .pricing-container .feedback-container .feed1 span {
   font-family: "Source Sans", sans-serif;
@@ -107,14 +111,14 @@
 .pricing-container .feedback-container .feed1 .author .author-span {
   display: flex;
   flex-direction: column;
-  margin-top: 37px;
+  margin-top: 33px;
 }
 .pricing-container .feedback-container .feed1 .author .author-span span {
   font-family: "Source Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: -0.6px;
+  letter-spacing: 0.1px;
   line-height: 60px;
   color: #ffffff;
   margin-left: 24px;
@@ -122,28 +126,28 @@
 .pricing-container .feedback-container .feed1 .author .author-span span:last-child {
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.3px;
-  margin-left: 25px;
+  letter-spacing: 0.35px;
+  margin-left: 24px;
   font-style: normal;
-  line-height: 23px;
+  line-height: 24px;
   margin-top: -17px;
 }
 .pricing-container .feedback-container .feed2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-left: 29px;
+  margin-left: 20px;
 }
 .pricing-container .feedback-container .feed2 span {
   font-family: "Source Sans", sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 32px;
   font-style: italic;
   font-weight: 400;
   color: #ffffff;
-  margin-left: 17px;
-  margin-top: 36px;
-  letter-spacing: 0.5px;
+  margin-left: 15px;
+  margin-top: 34px;
+  letter-spacing: -0.2px;
 }
 .pricing-container .feedback-container .feed2 .author2 {
   display: flex;
@@ -158,7 +162,7 @@
 .pricing-container .feedback-container .feed2 .author2 .author-span2 {
   display: flex;
   flex-direction: column;
-  margin-top: -27px;
+  margin-top: -25px;
 }
 .pricing-container .feedback-container .feed2 .author2 .author-span2 span {
   font-family: "Source Sans", sans-serif;
@@ -168,7 +172,7 @@
   line-height: 60px;
   color: #ffffff;
   margin-left: 24px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px;
 }
 .pricing-container .feedback-container .feed2 .author2 .author-span2 span:last-child {
   font-family: "Source Sans", sans-serif;

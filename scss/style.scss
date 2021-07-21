@@ -84,6 +84,7 @@
 }
 .device-wrapper {
   @include wrapper;
+  margin-left: -3px;
 }
 .device-container {
     width: 1170px;
@@ -93,24 +94,23 @@
           img {
             width: 510px;
             height: 621px;
-            margin-left: 5px;
+            margin-left: 8px;
             margin-top: 4px;
           }
         }
       .detail-info{
         display: flex;
         flex-direction: column;
-        margin-left: 29px;
+        margin-left: 33px;
         .details-title{
           margin-top: 38px;
           font-family: "Source Sans",sans-serif;
           font-size: 13px;
-          line-height: 48px;
+          line-height: 50px;
           font-weight: 700;
           text-transform: uppercase;
           color: #008ed6;
-          letter-spacing: 2.1px;
-          margin-left: 2px;
+          letter-spacing: 2.2px;
         }
         span:nth-child(2){
           font-family: "Source Sans",sans-serif;
@@ -118,26 +118,26 @@
           font-size: 34px;
           font-weight: 600;
           text-transform: none;
-          letter-spacing: 1.4px;
+          letter-spacing: 1.3px;
           color: #1a1a1a;
         }
         @include line;
         .line-wrapper {
-          margin-top: 31px;
+          margin-top: 28px;
         }
         .details-text{
           width: 470px;
-          font-size: 18px;
+          font-size: 16px;
           line-height: 26px;
           font-weight: 400;
           text-transform: none;
-          letter-spacing: -0.5px;
+          letter-spacing: 0.4px;
           color: #999999;
-          margin-top: -10px;
+          margin-top: -6px;
         }
         .setting{
-          margin-top: 17px;
-          margin-left: -12px;
+          margin-top: 15px;
+          margin-left: -13px;
           .col-1{
             display: flex;
             flex-direction: column;
@@ -168,26 +168,28 @@
           .col-10{
             display: flex;
             flex-direction: column;
-            margin-top: 6px;
+            margin-top: 8px;
             span{
               margin-left: -15px;
-              font-size: 18px;
-              line-height: 32px;
+              font-size: 16px;
+              line-height: 31px;
+              font-family: "Source Sans",sans-serif;
               font-weight: 400;
               text-transform: none;
               color: #1b1b1b;
               margin-top:4.5px;
-              letter-spacing: -0.7px;
+              letter-spacing: 0.9px;
             }
             span:first-child{
-              letter-spacing: -0.9px;
+              letter-spacing: 1.1px;
             }
           }
           span:nth-child(3){
-            letter-spacing: -0.8px;
+            letter-spacing: 0.9px;
           }
           span:last-child{
-            letter-spacing: -0.77px;
+            letter-spacing: 0.9px;
+            margin-top: 5px;
           }
         }
       }
@@ -195,6 +197,7 @@
   }
 .customize-wrapper {
   @include wrapper;
+  margin-left: -3px;
 }
 .customize-container{
   width: 1170px;
@@ -204,44 +207,45 @@
       display: flex;
       flex-direction: column;
       margin-top: -44px;
-      margin-left: -47px;
+      margin-left: -44px;
       .details-title{
         margin-top: 47px;
         font-family: "Source Sans",sans-serif;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 48px;
         font-weight: 700;
         text-transform: uppercase;
         color: #008ed6;
-        letter-spacing: 2.1px;
-        margin-left: 4px;
+        letter-spacing: 1.7px;
+        margin-left: 2px;
       }
       span{
         font-family: "Source Sans",sans-serif;
         font-size: 34px;
         font-weight: 600;
         text-transform: none;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.4px;
         color: #1a1a1a;
-        margin-top: -9px;
+        margin-top: -7px;
         margin-left: 2px;
       }
       @include line;
       .line-wrapper {
-        margin-top: 30px;
+        margin-top: 27px;
         margin-left: 3px;
       }
       .details-text{
-        width: 461px;
         font-family: "Source Sans", sans-serif;
         font-size: 17px;
+        line-height: 26px;
         font-weight: 400;
         text-transform: none;
-        letter-spacing: 0.27px;
-        line-height: 26px;
+        letter-spacing: 0.45px;
         color: #999999;
+        padding-right: 39px;
+        padding-left: 21px;
         margin-top: -26px;
-        margin-left: 2px;
+        margin-left: -19px;
       }
     }
     .col-7{
@@ -340,7 +344,7 @@
   .contact-icon{
     display: flex;
     margin-right: -14px;
-    margin-top: -3px;
+    margin-top: -1px;
     .col-4{
       @include column;
       letter-spacing: -1px;

@@ -13,7 +13,7 @@
         div {
           @include center;
           margin-left: 70px;
-          margin-right: 42px;
+          margin-right: 40px;
           i {
             font-size: 18px;
             opacity: 0.2;
@@ -34,7 +34,6 @@
           text-transform: uppercase;
           color: #444348;
           margin-top: 12px;
-          margin-left: -2px;
         }
       }
     }
